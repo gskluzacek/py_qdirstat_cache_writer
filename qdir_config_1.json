@@ -1,0 +1,21 @@
+{
+  "options": {
+    "long_format": false,
+    "scan_mounted": false,
+    "verbose": false,
+    "debug": false
+  },
+  "global_exclude": [
+    ".glusterfs"
+  ],
+  "index_directories": [
+    {
+      "index": "/opt/gluster/brick1/default-work-private",
+      "cache": "/home/centos/greg/default-work-private-cache",
+      "compress": false,
+      "exclude": [
+        "/opt/gluster/brick1/default-work-private/.glusterfs"
+      ]
+    }
+  ]
+}

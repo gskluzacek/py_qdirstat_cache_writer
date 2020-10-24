@@ -374,7 +374,7 @@ def args_from_json_config(index_dirs):
     if not index_dirs:
         print 'No valid `index_directories` were specified, please check json config file: {}'.format(config_file)
         sys.exit(4)
-        
+
     return debug, verbose
 
 

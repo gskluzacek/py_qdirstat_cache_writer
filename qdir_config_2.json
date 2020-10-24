@@ -1,0 +1,22 @@
+{
+  "options": {
+    "long_format": false,
+    "scan_mounted": false,
+    "verbose": false,
+    "debug": true
+  },
+  "global_exclude": [
+    "do_not_enter",
+    ".DS_Store"
+  ],
+  "index_directories": [
+    {
+      "index": "/Users/gskluzacek/test_qdirstat",
+      "cache": "/Users/gskluzacek/qdirstat_cache_2.txt",
+      "compress": false,
+      "exclude": [
+        "/Users/gskluzacek/test_qdirstat/full_path_dont_index"
+      ]
+    }
+  ]
+}
