@@ -65,10 +65,10 @@
  All of the original options of the Perl verions of qdirstat_cache_writer are supported
  in the json config file. 
  
-	- `long_format` [-l]: **true** or **false** - always add full path, even for plain files
-	- `scan_mounted` [-m]: **true** or **false**	- scan mounted ilesystems (cross filesystem boundaries)
-	- `verbose` [-v]: **true** or **false**	- verbose output
- - `debug` [-d]: **true** or **false**	- debug ouput
+- `long_format` [-l]: **true** or **false** - always add full path, even for plain files
+- `scan_mounted` [-m]: **true** or **false**	- scan mounted ilesystems (cross filesystem boundaries)
+- `verbose` [-v]: **true** or **false**	- verbose output
+- `debug` [-d]: **true** or **false**	- debug ouput
  
  Note: if `debug` is set to **true** then verbose will also be **true**
  
