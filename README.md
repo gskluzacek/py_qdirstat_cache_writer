@@ -88,10 +88,8 @@
  cards (`*` and `?`) and regular expressions are not supported at this time.
  
  For example, if the following paths have been specified as excluded:
- - `"/bin"`
- - `"tmp"`
- - `".hidden"`
- - `".csv"`
+ 
+ `["/bin", "tmp", ".hidden", ".csv"`
  
  Then each of the following directories/files would be excluded/not-excluded
  - `/bin` from the root diretory would be excluded
